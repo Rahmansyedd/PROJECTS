@@ -1,0 +1,18 @@
+input{
+    border: none;
+    box-shadow: 0px 0px 10px rgb(67,65,64,0.4);
+    font-size: 1.2rem;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+}
+input:focus-within{
+    border:2px solid aqua
+}
+
+.Submissions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

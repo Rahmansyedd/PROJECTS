@@ -1,0 +1,25 @@
+
+.App{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.signature{
+    display: inline-block;
+    border: solid black 1px;
+    padding: 10px;
+    margin: 10px;
+
+}
+.btn button {
+    border: 1px solid black;
+    padding: 10px 20px ;
+    background-color:inherit;
+    
+  
+}
+.btn button:hover{
+    background-color: gray;
+    color: white;
+}
+

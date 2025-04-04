@@ -1,0 +1,10 @@
+open cd server 
+npm i
+npm run server
+
+useeffect:any thing load in ui before it will show
+
+if we want to bring images in ui the we have to use 
+<!-- <img src=food.image  /> give error404 inconsol
+<img src={""/fd}  />
+ <img src={BASE_URL + food.image}  /> correct way  we have to export baseurl -->

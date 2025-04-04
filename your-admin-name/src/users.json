@@ -1,0 +1,12 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "syed",
+      "password": "password",
+      "fullName": "syed Rahman",
+      "avatar": ""
+    }
+   
+  ]
+}

@@ -1,0 +1,37 @@
+Akismet Anti-spam: Spam Protection
+All in One SEO     --------deactivate
+All-in-One WP Migration
+Astra Widgets
+Classic Editor
+Coming Soon Page, Maintenance Mode, Landing Pages & WordPress Website Builder by SeedProd
+Contact Form 7
+Crisp
+Database for WPforms
+Duplicate Page
+Easy WP SMTP
+Elementor
+ElementsKit Lite
+Formidable Forms
+Hostinger AI
+Hostinger Easy Onboarding
+Hostinger Tools
+Joinchat   --------deactivate
+LiteSpeed Cache
+MaxUploader - Increase Media Upload Size   --------deactivate
+MetaSlider
+Popup Maker
+Rank Math SEO    --------deactivate
+Sky Addons for Elementor
+Smush
+Starter Templates
+Video Slider Rich
+WP Mail SMTP
+WP-Optimize - Clean, Compress, Cache   --------deactivate
+WPForms Lite
+Yoast SEO
+
+
+
+067D36
+ padding: 5px 10px;
+background-color: #067D36

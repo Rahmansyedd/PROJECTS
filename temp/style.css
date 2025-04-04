@@ -1,0 +1,36 @@
+:root {
+    --primary-font-family: 'Poppins', sans-serif;
+    --light-white: #f5f8fa;
+    --gray: #5e6278;
+    --gray-1: #e3e3e3;
+    
+}
+
+body {
+    font-family: var(--primary-font-family);
+    font-size: 14px;
+}
+.wrapper {
+    padding: 0 0 100px;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    min-height: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(58, 92, 159);
+    
+}
+.wrapper input {
+    background-color: var(--light-white);
+    border-color: var(--light-white);
+    color: var(--gray);
+    
+}
+.wrapper .submit_btn {
+    padding: 10px 15px;
+    font-weight: 500;
+}

@@ -1,0 +1,31 @@
+npm install -D prettier prettier-plugin-tailwindcss     => usee this to install prettier plugin
+firebase setup  :   create new project  
+click on web symble <>
+register in 2 steps and reture back hitting cross button 
+create database in  left side menu bar build in that firestore database
+firestore database is no sql databasse we can manage databasse form frontend
+for practice will go with test mood
+create collection of name ans email and then come to firebase js file in vscode and import 
+import { getFirestore } from "firebase/firestore";
+and export    export const bd = getFirestore(app)
+
+firedase setup done
+for adding colors gor to tailwind config 
+
+now  in app js will start ui
+1.there is a feature in vs to bring browser in vs code for that we have to click  shift+cltr+p 
+search simple browser and take url of firebasse and pase it and enter
+
+bg back  in index.css file  body{
+    background-color: #323334;
+}
+
+now component folder and file navbar.jsx
+rafce 
+and import in app component
+in app we have to agest width see line5
+then add input and add react icons    npm install react-icons
+add fi search and add relative position in dev and absolute in fisearch and give css
+
+
+ 

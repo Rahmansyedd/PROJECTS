@@ -1,0 +1,46 @@
+# print python ke function
+# variables means who value got cahnges
+# name ="syed"  =>name =variable   syed= value
+# print(name) we will not give code here because we are runnong variable 
+# = EQUALTO symble is known as assimentoperator
+# indentifires means names variables 
+# datatypes
+# python keywords
+# 40min
+# python os a case senstive lang
+# comments in python:single line comment, multiline comment
+# types of operators:  a+b =ab are operands and = is operator
+# type conversion:
+# input in python
+
+# chapter 2
+
+# strings and conditionals statements  :
+
+# string is a datatype to stores a sequence of characters
+# for continueing string in next line we hve to use \n
+# basic operation :concatenation  
+
+# if statement  will check statement definetly
+# elif statement will check when if steatment will give false
+# Indentation means gap in if else and elif statement  it will take 4space of gap  : Indentation = proer spacing
+
+# nesting
+# means inside if we can write if statement i.e.  => if(constl):
+#                                                        if(consol1);
+#                                                           print(a)
+
+
+#chapter 3
+#list & tuples
+
+#list built in data types thats stores the value
+# the different between string ans list is => strings are immutable  :nad list are muatable  ===> mutable means change karna
+
+
+# chapter 4
+
+# dictionarys and set they are data structre and data type
+# dictionarys: 
+# SETS B/W SETS ELEMENTS
+# SETS AARE MUATABLES AND SETS ELEMEMTS ARE IMMUATABLE

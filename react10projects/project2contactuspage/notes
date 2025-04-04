@@ -1,0 +1,24 @@
+how t use props
+we have to create :
+<!-- 1.	<Button text="VIA SUPPORT CHAT" icon = { <MdMessage/> } /> -->
+2.	We have to add parameters in button component : const Button = (props)
+3.	Then in button section we have to add
+<!-- <button className={styles.primary_btn}>
+        <MdMessage fontSize="24px"/>
+        {props.text}
+</button> -->
+4. now we can manage from out side
+5.go in contact form button section and add one more button
+6.IF WE WANT TO USE JAVASCRIPT USE { } see button page 7 & 8
+7.now we can create new varient in button page  to add button
+8. we have crate a properti see line see 22 in contoctformS CREATED BOOLREAN
+9. go to button page add     
+<!-- <button className={ props.isOutline ? styles.outline_btn : styles.primary_btn}> -->
+10 destructing : we are doing props destructing in button page after line 3 add
+11 if we click via call button it will not work because we have to pass rest in buttons page see button.jsx line 3&6    
+use state hook: if i submit form  the out put is not showing in table the we use use satate hook
+
+
+
+
+    

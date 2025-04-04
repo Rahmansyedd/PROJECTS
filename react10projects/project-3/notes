@@ -1,0 +1,49 @@
+1. add style component (https://styled-components.com/docs/basics)
+2.npm install styled-components
+after creating 2componenetgameplay.jsx will go to app.jsx and will use ternery operator to write logic see line 15
+toggleGamePlay we are passing referance in start game we are passing as a props see line 18 now we are giving axex  {toggle} startgame page 3line &9
+now will style game play component
+
+if we refresh the page we are coming to main page to stop that see 7 in app male true
+numberselector=> create array to add more numbers / then loop with box see 8 to 13
+key is a unique id
+jab b hum logfunction me koi value pass karvana chate hain to call back fuction ke use karne 12
+now will keep check for color changing 
+
+if i click on dice it should roll and change the nmber:
+in roledice component  add class name dice
+will create use state line 5 now will creat randon number generate function
+will change image wile clicking  in img src will add javascriptand template littralls  
+  <!-- <img src={`/images/dice_1.png`} alt="dice" /> -->
+  after this add $ symbol in dice_${currentDice} ro change dices
+
+  will remove usestate from numberelectore and add in gameplay then will pass selectore as a props in numberselectore component
+  and will go to gameplay comp and addprops in numberselector  see 14,15 line
+  hum ne state ko ek level upper laya ta ki sara logic el me use karsake
+  will do same for the roledice comp take usestate and pase in gameplay comp and will pass this as a propss in roledice
+  in game comp will add in role dice
+
+  it wil give props vaalidation error in role component ans number component will leave that for now
+
+  how to update totoal score
+  from role comp create score usestate and i will coppy generateRandomNumber roleDice function and pase in gameplay
+    <!-- </div>
+      <RoleDice CurrentDice={CurrentDice}
+      roleDice={roleDice}/> -->
+       then pass props in roledice
+now i will add check in gameplay comp
+if (selectedNumber === randomNumber){
+    setScore((prev)=>prev  + randomNumber)
+  }else{
+    setScore((prev)=>prev - 2)
+  }
+  
+  if we click on number it is selecting the same number after refresh so for that
+   setSelectedNumber(undefined)
+
+   now tje number is not selected but the dice is rolling to stop that
+     if (!selectedNumber) return; 
+     we are showing this at first in role function so dice should not rotate and 
+
+     now will show error saying select the number
+     creating error use sstate in gameplay
