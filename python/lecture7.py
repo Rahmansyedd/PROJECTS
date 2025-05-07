@@ -81,25 +81,37 @@
 # waf to find in which line of the file does the word "learning" occur first
 # print -1 for word not fond
 
-def check_for_line():
-    word = "learning"
-    data = True
-    line_num = 1
-    with open("sample.txt","r") as f:
-     while data:
-        data = f.readline()
-        if ( word in data ) :
-            print(line_num)
-            return
-        line_num += 1
+# def check_for_line():
+#     word = "pyq"
+#     data = True
+#     line_num = 1
+#     with open("sample.txt","r") as f:
+#      while data:
+#         data = f.readline()
+#         if ( word in data ) :
+#             print(line_num)
+#             return
+#         line_num += 1
 
-    return -1
-check_for_line()
+#     return -1
+# print(check_for_line())
 # 43min
-           
+count = 0
+with open("sample.txt","r") as f:
+    data = f.read()
+
+    num = data.split(",")
+    for val in num:
+        if (int(val) % 2 == 0):
+            count += 1
+print(count)
+
+
        
 
 
 
 
 
+
+           

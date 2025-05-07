@@ -28,6 +28,7 @@ const App = () => {
         <FiSearch className="text text-3xl text-white absolute ml-1" />
         <input type="text "
           className="bg-transparent border-white rounded-md border h-10 flex-grow pl-9 text-white" />
+          
       </div>
       <div >
         <AiFillPlusCircle className="text-5xl cursor-pointer text-white" />
@@ -38,3 +39,14 @@ const App = () => {
 }
 
 export default App;
+
+// fnction(){
+//   x=33
+//   console.log(x)
+//   var = x
+// }
+// dosomthing()
+
+// let a = 5
+// let a = 10
+// console.log(a)
